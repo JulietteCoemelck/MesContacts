@@ -1,15 +1,18 @@
+body, html, #root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffecd2;
+}
+
 .App {
   font-family: 'DM Sans', sans-serif;
   font-size: large;
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
-  overflow: visible;
 }
 
 form {
@@ -105,7 +108,7 @@ input[type="text"]{
   color: #ff632f;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   .contactcard {
     width: 90vw;
     font-size: small;

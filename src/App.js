@@ -74,7 +74,7 @@ export default function App() {
       <h2>Ajouter un contact</h2>
 
       <form>
-        <label for="Nom">
+        <label htmlFor="Nom">
           Nom
           <input
           type="text"
@@ -88,7 +88,7 @@ export default function App() {
       </form>
 
       <form>
-        <label for="Prénom">
+        <label htmlFor="Prénom">
           Prénom
           <input
           type="text"
@@ -102,7 +102,7 @@ export default function App() {
       </form>
 
       <form>
-        <label for="Téléphone">
+        <label htmlFor="Téléphone">
           Téléphone
           <input
           type="text"
