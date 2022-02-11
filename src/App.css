@@ -30,6 +30,7 @@ input[type="text"]{
   border: 0;
   padding: 15px;
   margin-top: 10px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .button {
