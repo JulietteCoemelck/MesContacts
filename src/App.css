@@ -35,6 +35,7 @@ input[type="text"]{
 .button {
   background-color: #ff8056;
   font-size: large;
+  font-family: 'DM Sans', sans-serif;
   padding: 15px;
   margin: 10px;
   border: 0;
