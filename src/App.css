@@ -1,8 +1,12 @@
-body, html, #root {
+html {
   width: 100vw;
-  height: 100vh;
+  min-height: 100%;
+}
+
+body {
   margin: 0;
-  background-color: #ffecd2;
+  /* background-color: #ffecd2; */
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%) fixed;
 }
 
 .App {

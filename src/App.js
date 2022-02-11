@@ -19,12 +19,13 @@ export default function App() {
       setContactsList([
         ...contactsList,
         {
-          id: contactsList.length,
+          date: new Date(),
           name: name,
           firstname: firstname,
           phone: phone
         }
       ])
+      console.log("contactsLists", contactsList)
       
       // Réinitialisation des inputs et de l'erreur //
       setName("");
@@ -52,14 +53,14 @@ export default function App() {
   // Tri alphabétique //
   const alphabeticalSort = () => {
     setSort("alphabet");
-    let sortList = contactsList.sort((a, b) => a.name > b.name)
+    let sortList = contactsList.sort((a, b) => a.name.localeCompare(b.name, 'fr', {ignorePunctuation: true}))
     setContactsList(sortList)
   }
 
-  // Tri chronologique par id //
+  // Tri chronologique par date //
   const timeSort = () => {
     setSort("time")
-    let sortList = contactsList.sort((a, b) => a.id > b.id)
+    let sortList = contactsList.sort((a, b) => a.date > b.date)
     setContactsList(sortList)
   }
 
