@@ -25,7 +25,6 @@ export default function App() {
           phone: phone
         }
       ])
-      console.log("contactsLists", contactsList)
       
       // Réinitialisation des inputs et de l'erreur //
       setName("");
