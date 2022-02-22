@@ -8,3 +8,6 @@ Fully responsive
 Optimised accessibility 
 
 Made with React.js mostly
+
+## Deployed version
+https://juco-mescontacts.netlify.app/
